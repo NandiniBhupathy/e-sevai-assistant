@@ -1,0 +1,53 @@
+paths:
+  manuals_dir: data/manuals
+  crops_dir: data/crops
+  index_dir: data/index
+  cache_dir: cache
+  chunks_file: data/index/chunks.jsonl
+  faiss_file: data/index/faiss.index
+  bm25_file: data/index/bm25.pkl
+  services_file: services.json
+  glossary_file: glossary.json
+
+pdf:
+  dpi: 200
+  crop_padding_points: 25
+  min_image_area_points2: 2500
+  repeated_image_page_fraction: 0.30
+  merge_vertical_gap_points: 15
+  boilerplate_page_range: [1, 5]
+
+ocr:
+  language: eng+tam
+  psm: 6
+  upscale: 2
+  min_confidence: 0.0
+
+chunking:
+  target_words: 220
+  overlap_words: 35
+
+retrieval:
+  dense_top_k: 20
+  bm25_top_k: 20
+  final_top_k: 6
+  similarity_threshold: 0.35
+  rrf_k: 60
+
+embedding:
+  model: BAAI/bge-m3
+  # Kept small so indexing survives on machines with ~6 GB RAM.
+  batch_size: 8
+  normalize: true
+
+llm:
+  model: gemini-3.8-flash
+  temperature: 0.1
+  max_output_tokens: 1200
+  min_delay_seconds: 2.0
+  max_retries: 5
+  cache_file: cache/llm_cache.json
+
+ui:
+  max_images: 2
+  show_debug_default: false

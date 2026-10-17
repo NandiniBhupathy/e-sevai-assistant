@@ -1,0 +1,24 @@
+{
+  "keep_english": [
+    "CAN",
+    "OTP",
+    "Proceed",
+    "Submit",
+    "Make Payment",
+    "Confirm payment",
+    "Check Status",
+    "Reprint Receipt",
+    "Download certificate"
+  ],
+  "portal_terms": {
+    "Chitta": ["சிட்டா"],
+    "Adangal": ["அடங்கல்"],
+    "ration card": ["ரேஷன் கார்டு", "குடும்ப அட்டை"],
+    "address proof": ["முகவரி சான்று"],
+    "applicant name": ["விண்ணப்பதாரர் பெயர்"],
+    "district": ["மாவட்டம்"],
+    "taluk": ["வட்டம்"],
+    "revenue village": ["வருவாய் கிராமம்"],
+    "patta": ["பட்டா"]
+  }
+}

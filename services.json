@@ -1,0 +1,68 @@
+{
+  "REV-101": {
+    "name": "CommunityCertificate",
+    "manual_file": "CSCOperator_REV-101_CommunityCertificate.pdf",
+    "manual_year": "2016"
+  },
+  "REV-102": {
+    "name": "NativityCertificate",
+    "manual_file": "CSCOperator_REV-102_NativityCertificate.pdf",
+    "manual_year": "2016"
+  },
+  "REV-103": {
+    "name": "IncomeCertificate",
+    "manual_file": "CSCOperator_REV-103_IncomeCertificate.pdf",
+    "manual_year": "2017"
+  },
+  "REV-104": {
+    "name": "First Graduate Certificate"
+  },
+  "REV-105": {
+    "name": "No Graduate in Family Certificate"
+  },
+  "REV-106": {
+    "name": "Agricultural Income Certificate"
+  },
+  "REV-107": {
+    "name": "Small / Marginal Farmer Certificate"
+  },
+  "REV-108": {
+    "name": "Deserted Woman Certificate"
+  },
+  "REV-109": {
+    "name": "Widow Certificate"
+  },
+  "REV-110": {
+    "name": "Legal Heir Certificate"
+  },
+  "REV-111": {
+    "name": "Unemployment Certificate"
+  },
+  "REV-112": {
+    "name": "Other Backward Class Certificate"
+  },
+  "REV-113": {
+    "name": "Scheduled Caste Certificate"
+  },
+  "REV-114": {
+    "name": "Scheduled Tribe Certificate"
+  },
+  "REV-115": {
+    "name": "Residence Certificate"
+  },
+  "REV-116": {
+    "name": "Inter Caste Marriage Certificate"
+  },
+  "REV-117": {
+    "name": "Solvency Certificate"
+  },
+  "REV-118": {
+    "name": "No Male Member Certificate"
+  },
+  "REV-119": {
+    "name": "Destitute Widow Certificate"
+  },
+  "REV-120": {
+    "name": "Unmarried Certificate"
+  }
+}

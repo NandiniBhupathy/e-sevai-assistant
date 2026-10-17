@@ -1,0 +1,16 @@
+id,question,language,user_type,service_code,expected_facts,answerable,notes
+1,"What documents are needed for the Agricultural Income Certificate?",en,citizen,REV-106,"Chitta;Adangal;photo;ration card|address proof",yes,
+2,"வி வி ரு மா னச் ச் சா ன் றி தழு க் கு என் ன ஆவணங் கள் தேவை?",ta,citizen,REV-106,"Chitta;Adangal;photo;ration card|address proof",yes,
+3,"Upload pannum documents-oda max size enna?",tanglish,citizen,REV-106,"200 KB;50 KB",yes,
+4,"What is the fee?",en,citizen,REV-106,"50;60",yes,"Conflict should be noted."
+5,"Certificate eppadi download pannuradhu?",tanglish,citizen,REV-106,"Check Status;Download certificate",yes,
+6,"How do I register for a CAN?",en,operator,REV-106,"OTP;Register",yes,
+7,"Where is the Make Payment step?",en,operator,REV-106,"Make Payment",yes,
+8,"Proceed button eppadi use pannradhu?",tanglish,operator,REV-106,"Proceed",yes,
+9,"What should I bring to apply?",en,citizen,REV-106,"Chitta;Adangal;photo",yes,
+10,"200 KB-ku mela upload panna mudiyuma?",tanglish,citizen,REV-106,"200 KB",yes,
+11,"Agricultural Income Certificate-ku photo size enna?",tanglish,citizen,REV-106,"50 KB",yes,
+12,"How long does approval take?",en,citizen,REV-106,,no,"Not covered in manual."
+13,"வருமானச் சான்றிதழ் பெற கட்டணம் எவ்வளவு?",ta,citizen,REV-106,"50;60",yes,
+14,"How do I check the application status?",en,operator,REV-106,"Check Status",yes,
+15,"Receipt-ஐ மீண்டும் எப்படி print செய்வது?",ta,operator,REV-106,"Reprint Receipt",yes,

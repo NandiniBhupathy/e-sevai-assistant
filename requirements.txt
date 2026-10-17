@@ -1,0 +1,35 @@
+# PDF text extraction
+PyMuPDF>=1.24.0
+
+# OCR
+pytesseract>=0.3.13
+Pillow>=10.0.0
+
+# Numerics
+# torch 2.2/2.3 cannot consume numpy 2.x, so cap numpy to keep that pair working.
+numpy>=1.26.0,<2.0
+
+# Retrieval
+# sentence-transformers 6.x requires transformers 5.x, which in turn upgrades
+# torch and numpy. The 3.x/4.x pair is the combination tested against numpy 1.26.
+sentence-transformers>=3.0.0,<4.0.0
+transformers>=4.39.0,<5.0.0
+# Required by transformers for low_cpu_mem_usage, which is how src/index.py
+# loads BGE-M3 without needing twice the checkpoint size in RAM.
+accelerate>=0.21.0
+faiss-cpu>=1.8.0
+rank-bm25>=0.2.2
+
+# LLM
+google-genai>=1.0.0
+
+# Application
+streamlit>=1.38.0
+PyYAML>=6.0.1
+pandas>=2.2.0
+scikit-learn>=1.4.0
+tqdm>=4.66.0
+
+# Python 3.12 removed distutils from the standard library, but transformers 4.x
+# still imports it. setuptools supplies the shim.
+setuptools>=69.0
