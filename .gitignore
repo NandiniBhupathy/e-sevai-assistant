@@ -1,0 +1,10 @@
+.env
+cache/*
+__pycache__/
+
+# Track the directory but ignore files inside
+data/crops/*
+!data/crops/.gitkeep
+
+data/index/*
+!data/index/.gitkeep
