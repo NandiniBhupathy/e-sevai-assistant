@@ -1,5 +1,7 @@
 .env
 cache/*
+!cache/.gitkeep
+
 __pycache__/
 
 # Track the directory but ignore files inside
